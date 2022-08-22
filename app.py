@@ -11,7 +11,7 @@ LOG = create_logger(app)
 LOG.setLevel(logging.INFO)
 
 def scale(payload):
-    """Scales Payload"""
+    """Scales Payloads"""
 
     LOG.info("Scaling Payload: %s payload")
     scaler = StandardScaler().fit(payload)
