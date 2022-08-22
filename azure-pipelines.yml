@@ -6,20 +6,22 @@ trigger:
 - master
 
 # TODO: Replace the agent pool name
-pool: myAgentPool
+pool: 'new'
 
 variables:
   # TODO: Replace the service connection name
-  azureServiceConnectionId: 'myserviceconnection'
+  azureServiceConnectionId: 'newsc'
   
   # TODO: Replace 'mywebapp193576' with the existing Web App name
-  webAppName: 'mywebapp193576'
+  webAppName: 'flask242'
 
   # Environment name
   environmentName: 'flask-ml-service'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
+
+  pool: 'new'
 
 stages:
 - stage: Build
