@@ -70,9 +70,11 @@ Ensure the service connection and pipeline agent is installed
 
 ![image](./Screenshots/agent.png)
 
-
 * Successful prediction from deployed flask app in Azure Cloud Shell.  
 ![image](./Screenshots/postman.png)
+
+* Load test using locust to run execute `locust -f ./locustfile.py 
+![image](./Screenshots/locust.png)
 
 ## Enhancements
 
